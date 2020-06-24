@@ -9,11 +9,18 @@
          "type": "cppdbg",
          "request": "launch",
          "program": "${workspaceFolder}/bin/main",
+         "args": [],
+         "stopAtEntry": false,
          "cwd": "${workspaceFolder}/bin",
+         "environment": [],
+         "externalConsole": false,
+         "osx": {
+           "MIMode": "lldb",
+         },
          "linux": {
            "MIMode": "gdb",
            "miDebuggerPath": "/usr/bin/gdb"
-         },
+         }
       }
    ]
 }
