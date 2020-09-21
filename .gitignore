@@ -1,6 +1,10 @@
 /build
 /bin
 
+.clang_complete
+
+**.swp
+
 # Prerequisites
 *.d
 
