@@ -1,6 +1,9 @@
 /build
 /bin
+.clangd/**
 
+tags
+compile_commands.json
 .clang_complete
 
 **.swp
