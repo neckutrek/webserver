@@ -21,6 +21,7 @@ void Server::doAwaitAccept()
                return;
             }
             m_connectionManager->addConnection(std::move(socket));
+            doAwaitAccept();
          }
       );
 }
